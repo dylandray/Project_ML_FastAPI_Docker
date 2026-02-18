@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib #sauvegarde le modèle
 
-# fetch dataset 
+# fetch dataset from the api directly, just to save memory on my computer
 dataset = fetch_ucirepo(id=601) 
   
 # data (as pandas dataframes) 
